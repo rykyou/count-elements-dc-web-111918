@@ -9,7 +9,6 @@ def count_elements(array)
     else 
       new_hash[string] = count
     end 
-    binding.pry
   end 
   new_hash
 end
