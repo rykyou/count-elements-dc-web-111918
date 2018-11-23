@@ -1,3 +1,5 @@
+require 'pry'
+
 def count_elements(array)
   new_hash = {}
   count = 1
@@ -9,5 +11,6 @@ def count_elements(array)
     end 
   end 
   new_hash
+  binding.pry
 end
  
